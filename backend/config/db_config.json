@@ -1,0 +1,7 @@
+{
+  "host": "35.232.143.49",
+  "user": "root",
+  "password": "hanul",
+  "database": "InpactdotCareer",
+  "port": "3306"
+}

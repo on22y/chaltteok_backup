@@ -1,0 +1,44 @@
+.homePage {
+  display: flex;
+  height: 100vh;
+  background-color: #fccd2a;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  text-align: center;
+}
+
+.homePage-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homePage .boxContainer {
+  justify-content: center;
+  align-items: center;
+}
+
+.homePage .underlineBtn {
+  margin-bottom: 10px;
+}
+
+.homePage .mainBtnContainer {
+  margin-top: 30px;
+}
+
+.mainTitle,
+.mainSubtitle {
+  width: 95%;
+  height: auto;
+}
+
+.mainTitle {
+  margin-bottom: 10px;
+}
+
+.mainSubtitle {
+  margin-top: 5px;
+}

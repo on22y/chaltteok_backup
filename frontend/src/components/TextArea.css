@@ -1,0 +1,32 @@
+.textAreaContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0;
+  margin: 0 0;
+}
+
+.textAreaContainer .textArea {
+  width: 318px;
+  height: 48px;
+  padding: 15px;
+  margin: 0 0;
+  border: 3px solid #2f2f2f;
+  border-radius: 30px;
+  font-size: 18px;
+  background-color: inherit;
+  color: #929292;
+  outline: none;
+  font-family: 'Pretendard';
+  font-weight: 400;
+  font-style: normal;
+  resize: none; /* 사용자가 크기 조절 못하도록 설정 */
+  overflow: hidden;
+  line-height: 1.5;
+  max-height: calc(1.5em * 3);
+}
+
+.textAreaContainer .textArea::placeholder {
+  color: #929292;
+  font-size: 18px;
+}

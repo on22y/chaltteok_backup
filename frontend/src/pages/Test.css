@@ -1,0 +1,36 @@
+.testPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fccd2a;
+  box-sizing: border-box;
+}
+
+.testPage .mainBtnContainer {
+  margin-top: 20px;
+}
+
+.testPage .boxContainer {
+  display: flex;
+}
+
+.loading-icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.loading-spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

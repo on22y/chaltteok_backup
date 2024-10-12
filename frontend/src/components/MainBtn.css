@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Gothic&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+.mainBtnContainer,
+.mainBtn {
+  font-family: 'Jua', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mainBtnContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainBtnsubText {
+  background-color: inherit;
+  color: #272727;
+  padding: 0 0;
+  font-size: 11px;
+  margin-top: 5px;
+  letter-spacing: 0.5px;
+}
+
+.mainBtn {
+  background-color: #6ec207;
+  color: #fffbe6;
+  font-size: 28px;
+  margin: 0 0;
+  padding: 0 0;
+  border: 3px solid #2f2f2f;
+  border-radius: 30px;
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: 1.5px;
+
+  /* 이미지 및 텍스트 중앙 정렬을 위한 추가 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainBtn span {
+  text-shadow: -2.2px 0 0 #2f2f2f, 2.2px 0 0 #2f2f2f, 0 -2.2px 0 #2f2f2f, 0 2.2px 0 #2f2f2f, -2.2px -2.2px 0 #2f2f2f,
+    2.2px -2.2px 0 #2f2f2f, -2.2px 2.2px 0 #2f2f2f, 2.2px 2.2px 0 #2f2f2f, 0px 0px 5px #2f2f2f;
+}
+
+.mainBtn:active {
+  transform: translateY(2px);
+}

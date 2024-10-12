@@ -1,0 +1,35 @@
+.numListContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-family: 'Jua', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  text-align: center;
+  padding: 0 0;
+  margin: 0 0;
+}
+
+.numList-Click {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.numList-Click.selected::before {
+  content: '•';
+  position: absolute;
+  top: -14px;
+  color: #357929;
+  font-size: 16px;
+}
+
+.numList-Click:hover {
+  background-color: #e0e0e0;
+}

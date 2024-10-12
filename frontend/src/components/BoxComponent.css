@@ -1,0 +1,15 @@
+.boxContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 5px solid #000000;
+  border-radius: 30px;
+  background-color: #fffbe6;
+  margin: 0 0;
+  padding: 20px;
+  width: 356px;
+  max-width: 400px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  /* text-align: center; */
+}

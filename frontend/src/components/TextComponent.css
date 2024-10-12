@@ -1,0 +1,29 @@
+.textContainer {
+  font-family: 'Jua', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding: 0 0;
+  margin: 0 0;
+  letter-spacing: 1px;
+}
+
+.textGreen {
+  color: #6ec207;
+}
+
+.textLightgreen {
+  color: #c0eba6;
+}
+
+.textYellow {
+  color: #fccd2a;
+}
+
+.textRed {
+  color: #ff4e4e;
+}
+
+.textPink {
+  color: #ff9eb5;
+}

@@ -1,0 +1,23 @@
+.solution {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 90%;
+  font-size: 18px;
+  padding: 0 0;
+  margin: 0 0;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-family: 'Pretendard';
+  font-style: normal;
+}
+
+.solution .solution-main {
+  font-weight: 700;
+  color: #357929;
+}
+
+.solution .solution-sub {
+  font-weight: 500;
+  color: #272727;
+}

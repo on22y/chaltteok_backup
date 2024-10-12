@@ -1,0 +1,42 @@
+/* html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appContainer {
+  width: 393px;
+  height: 852px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+:root {
+  --scale: 1;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* z-index: 0;*/
+  caret-color: transparent; /* 커서 깜빡임 제거 */
+}
+
+input,
+textarea {
+  caret-color: auto; /* input과 textarea에서 커서를 자동으로 활성화 */
+}

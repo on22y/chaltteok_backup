@@ -1,0 +1,15 @@
+.loadingPage {
+  display: flex;
+  height: 100vh;
+  background-color: #fccd2a;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* .loadingPage .imgComponent {
+  padding: 0 0;
+  margin-bottom: 15px;
+} */

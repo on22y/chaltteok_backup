@@ -1,0 +1,30 @@
+.mainBtnVoiceContainer,
+.mainVoiceBtn {
+  font-family: 'Pretendard';
+  font-weight: 700;
+  font-style: normal;
+}
+
+.mainVoiceBtnContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainVoiceBtn {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  font-size: 36px;
+  margin: 0 0;
+  padding: 0 0;
+  border: 3px solid #ffffff;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+.mainVoiceBtn:active {
+  transform: translateY(2px);
+  border-color: inherit;
+}

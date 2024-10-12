@@ -1,0 +1,93 @@
+.answerPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fccd2a;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 20px; /* 전체 페이지 padding 추가 */
+}
+
+.answerPage .mainBtnContainer {
+  margin-top: 20px;
+}
+
+.answerComponent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 356px;
+}
+
+.answerComponent .textContainer {
+  margin-bottom: -18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  position: relative;
+  z-index: 2;
+}
+
+.answerPage .boxContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding-left: 19px;
+  padding-right: 20px;
+}
+
+.answerComponent .boxContainer_copy {
+  position: relative;
+  z-index: 1;
+  border: 3px solid #2f2f2f;
+  /* padding: 20px; */
+  width: 90%;
+  margin: 0 auto;
+}
+
+.numListWithArrows {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+svg {
+  display: inline-block;
+}
+
+.imgWrapper {
+  position: absolute;
+  z-index: 10;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.trueImg {
+  width: 88px;
+  height: 151px;
+}
+
+.falseImg {
+  width: 80px;
+  height: 110px;
+}
+
+.middleImg {
+  width: 90px;
+  height: 110px;
+}
+
+.answercomponentText {
+  width: 70px;
+  height: auto;
+  padding: 0 0;
+  margin-bottom: -20px;
+  margin-left: 10px;
+  z-index: 99;
+}

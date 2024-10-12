@@ -1,0 +1,42 @@
+.signupPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fccd2a;
+  align-items: center;
+}
+
+.backBtn-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+.signupPage .boxContainer {
+  justify-content: center;
+  align-items: center;
+}
+
+.signupPage .inputBoxContainer {
+  margin-top: 10px;
+}
+
+.signupPage .mainBtnContainer {
+  margin-top: 20px;
+}
+
+.signupTitle {
+  width: 150px;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.signupSubtitle {
+  width: 325px;
+  height: auto;
+}

@@ -1,0 +1,50 @@
+.isLoggedTypePage {
+  display: flex;
+  height: 100vh;
+  background-color: #fccd2a;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.isLoggedTypePage-content {
+  align-items: center;
+}
+
+.isLoggedTypePage .underlineBtn {
+  margin-bottom: 10px;
+}
+
+.isLoggedTypePage .mainBtnContainer {
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.isLoggedTypePage .mainBtnContainer:last-child {
+  margin-top: 15px;
+}
+
+.isLoggedTypePage .textContainer {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.lineImg {
+  padding: 0 0;
+  margin: 0 0;
+  width: 318px;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.isLoggedTypePage .typeComponent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.isLoggedTypePage .imgComponent {
+  margin-top: 10px;
+}

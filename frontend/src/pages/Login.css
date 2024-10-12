@@ -1,0 +1,47 @@
+.loginPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fccd2a;
+  align-items: center;
+}
+
+.backBtn-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+.loginPage .boxContainer {
+  justify-content: center;
+  align-items: center;
+}
+
+.loginPage .inputBoxContainer {
+  margin-top: 15px;
+}
+
+.loginPage .mainBtnContainer {
+  margin-top: 20px;
+}
+
+.backBtn {
+  width: 19.35px;
+  height: 38.35px;
+}
+
+.loginTitle {
+  width: 130px;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.loginSubtitle {
+  width: 325px;
+  height: auto;
+}

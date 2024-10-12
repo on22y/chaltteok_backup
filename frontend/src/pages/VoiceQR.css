@@ -1,0 +1,11 @@
+.voiceQRPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.qrImg {
+  width: 600px;
+  height: auto;
+}

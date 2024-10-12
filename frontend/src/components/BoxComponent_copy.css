@@ -1,0 +1,15 @@
+.boxContainer_copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 5px solid #000000;
+  border-radius: 30px;
+  background-color: #fffbe6;
+  margin: 0 0;
+  padding: 0 0;
+  width: 318px;
+  max-width: 318px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  /* text-align: center; */
+}

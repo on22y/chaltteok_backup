@@ -1,0 +1,123 @@
+.wordPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fccd2a;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.backBtn-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+.wordPage .boxContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.wordPage .inputBoxForChat {
+  margin-bottom: 5px;
+}
+
+.wordPage .mainBtnContainer {
+  margin-top: 20px;
+}
+
+.yearSelectionRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.wordPage .selectBtnContainer {
+  margin-right: 10px;
+}
+
+.chats {
+  font-size: 14px;
+  padding: 0 0;
+  margin: 0 0;
+  font-family: 'Pretendard';
+  font-weight: 400;
+  word-wrap: break-word; /* 텍스트가 넘칠 경우 줄바꿈 */
+  word-break: break-all; /* 단어 중간에서도 줄바꿈 가능 */
+  white-space: normal; /* 텍스트가 길어지면 줄바꿈되도록 설정 */
+  line-height: 2;
+  max-width: 321px;
+  width: 321px;
+
+  /* 텍스트 줄 아래에만 선을 추가 */
+  background-image: linear-gradient(to bottom, transparent 95%, #272727 100%);
+  background-size: 100% calc(2em);
+  background-repeat: repeat-y;
+  background-position: 0 2em;
+}
+
+.textWithLine {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 5px;
+}
+
+.wordCheckMain {
+  display: flex;
+  flex-direction: row;
+  line-height: 1.5;
+}
+
+.wordCheckMaintitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.wordCheckMainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10px;
+}
+
+.wordTitle {
+  width: 200px;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.wordSubtitle1,
+.wordSubtitle2,
+.wordSubtitle3,
+.wordSubtitle4 {
+  margin-bottom: 3px;
+}
+
+.wordSubtitle1 {
+  width: 101px;
+  height: auto;
+  margin-left: 5px;
+}
+
+.wordSubtitle2,
+.wordSubtitle3 {
+  width: 93px;
+  height: auto;
+  margin-left: 10px;
+}
+
+.wordSubtitle4 {
+  width: 36px;
+  height: auto;
+  margin-left: 7px;
+}
